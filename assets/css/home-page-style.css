@@ -62,6 +62,12 @@ nav ul li {
   cursor: pointer;
 }
 
+nav ul li a {
+  text-decoration: none;
+  color: #fff;
+  cursor: pointer;
+}
+
 nav ul li:hover {
   transform: translateY(-5px);
   transition: all 0.2s;
@@ -165,3 +171,13 @@ nav ul li:hover {
 
 
 /* Header */
+
+/* Main Content */
+  .gray-background{
+    background-color: #2c2c2c;
+  }
+
+  .page-inner-content {
+    max-width: 1280px;
+    margin: 0 auto;
+  }
