@@ -129,6 +129,7 @@ nav ul li:hover {
 
 .header-bottom-side-rigth img {
   width: 70%;
+  height: 70%;
 }
 
 /* Medias Queries */
@@ -173,6 +174,7 @@ nav ul li:hover {
 /* Header */
 
 /* Main Content */
+  
   .gray-background{
     background-color: #2c2c2c;
   }
@@ -180,4 +182,15 @@ nav ul li:hover {
   .page-inner-content {
     max-width: 1280px;
     margin: 0 auto;
+  }
+
+  .cols {
+    display: grid;
+    justify-content: space-evenly;
+    padding: 4rem 1rem;
+  }
+
+  .cols-3 {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 3rem;
   }
