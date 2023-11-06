@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2? family= Roboto:wght@100;300;400;500 & display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+    font-size: 20px;
+    background-color: rgb(44, 43, 43);
+
+}
+
+.box{
+    width: 65px;
+    height: 68px;
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    margin: 0.6rem;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    transition: all .4s ease;
+    
+
+}
+
+.box:hover{
+    width: 200px;
+    background: #c32aa3;
+    border-radius: 35px;
+    color: rgb(9, 9, 9);
+    box-shadow: 0 0 50px #090a09;
+    
+    
+}
+
+.box:nth-child(2):hover{
+    background: rgb(39, 180, 88);
+    box-shadow: 0 0 50px #090a09;
+
+
+}
+
+.box:nth-child(3):hover{
+    background: #1877f2;
+    box-shadow: 0 0 50px #090a09;
+    
+}
+ 
+
+p{
+    transform: translate(60px);
+
+}
+
+.box .icon{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    border-radius: 50px;
+    margin-right: 10px;
+    transition: all .4s ease;
+    
+    
+}
+
+.instagram{
+    background-color: #c32aa3;
+}
+
+.whatsapp{
+    background-color: #25d366;
+}
+
+.facebook{
+    background-color: #1877f2;
+}
+

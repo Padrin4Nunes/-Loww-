@@ -23,31 +23,28 @@ form input{
     outline: 0;
     padding: 25px 15px;
     border-radius: 15px;
-    color: #fff;
+    color: #000;
     font-size: 15px;
+    font-weight: bold;
 }
 
 form input::placeholder{
     color: rgb(21, 21, 21);
 }
 
-form textarea{
-    resize: none;
-    max-height: 400px;
-}
+
 
 form .btn-enviar{
     margin-top: 20px;
     text-align: center;
     
-
 }
 
 form  .btn-enviar input[type=submit]{
     width: 100px;
     color: #090909;
     background-color: #04fc42;
-    font-weight: 700px;
+    font-weight: 700px; 
     cursor: pointer;
     align-items: center;
     
