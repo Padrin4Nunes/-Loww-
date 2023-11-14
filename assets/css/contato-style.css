@@ -8,6 +8,7 @@ body{
   justify-content: center;
   align-items: center;
   min-height: 100vh;
+  background-color: #666;
 }
 
 .container{
@@ -17,10 +18,12 @@ body{
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
+  background-color: white;
+  border-radius: 50px;
 }
-.container .card{
+.card{
   position: relative;
-  padding: 40px;
+  padding: 45px;
   width: 300px;
   background-color: white;
   margin: 20px;
@@ -30,25 +33,28 @@ body{
   transition: 0.5s;
   text-align: center;
   height: 500px;
+  align-items: center;
   
 }
-.container .card img{
+.card img{
   transition: 0.5s;
-  background-color: white;
   text-align: center;
+  border-radius: 30px;
+  background-color: white;
 }
-.container .card h1{
+.card h1{
   font-size: 2rem;
+  height: 50px;
 }
-.container .card ::content{
+.card ::content{
   padding: 20px;
   text-align: center;
 }
-.container .card .content p{
+.card .content p{
   color: #666;
   transition: 0.5s;
 }
-.container .card .content a{
+.content a{
   position: relative;
   display: inline-block;
   padding: 10px 20px;
@@ -59,23 +65,65 @@ body{
   transition: 0.5s;
   outline: none;
   margin-top: 20px;
+  text-align: center;
 }
-.container .card:hover{
-  background-color: rgba(128, 128, 128, 0.19);
+.card:hover{
+  background-color: white;
   color: rgb(97, 96, 96);
   margin-top: 30px;
   box-shadow: 2px 20px 25px rgb(10, 32, 45);
   border-color: rgb(30, 14, 207);
 }
-.container .card:hover img{
+.card:hover img{
   background: white;
 }
-.container .card:hover .content p{
+.card:hover .content p{
   color: black;
 }
-.container .card:hover .content a{
+.card:hover .content a{
   color: white;
 }
+
+.container {
+  background-color: #666;
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+
+button {
+  background-color: #04fc42;
+  border: none;
+  cursor: pointer;
+  padding: 0.8rem 3.8rem;
+  border-radius: 9999px;
+  font-weight: 900px;
+  font-size: 1rem;
+  transition: all 0.2s;
+  font-family: Arial, Helvetica, sans-serif;
+
+
+}
+
+h2{
+  color: #04fc42;
+  font-size: 40px;
+  height: 650px;
+  width: 40px;
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+
+h3{
+  color: white;
+  font-size: 40px;
+  height: 550px;
+  width: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+
+
+
 
 
 
