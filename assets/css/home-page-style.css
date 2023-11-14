@@ -355,6 +355,7 @@ nav ul li:hover {
       align-items: center;
       color: #8f8f8f;
       padding: 4rem 1rem;
+      gap: 2rem;
     }
 
     .download-options>* {
@@ -378,5 +379,38 @@ nav ul li:hover {
       text-align: center;
     }
 
+    .links-footer h3 {
+      color: #fff;
+      margin-bottom: 0.8rem;
+    }
+
+    .links-footer ul {
+      list-style: none;
+    }
+
+    .links-footer ul li {
+      margin-bottom: 0.5rem;
+      cursor: pointer;
+    }
+
+    /* Media Queries */
+    @media (max-width: 800px) {
+      .footer-content {
+        display: inline;
+        font-size: 0.8rem;
+      }
+
+      .footer-content>div {
+        padding: 1rem;
+      }
+
+      .download-options>div {
+        display: inline;
+      }
+
+      .download-options>div img {
+        width: 120px;
+      }
+    }
   /* Footer */
 
