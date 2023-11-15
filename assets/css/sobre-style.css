@@ -9,6 +9,26 @@
   margin-left: auto;
   margin-right: auto;
 }
+h2{
+  color: black;
+  height: 10vh;
+  width: 100vh;
+  text-align: center;
+  font-size: 30px;
+  margin-top: 30px;
+  margin-left: 350px;
+  
+}
+
+p{
+  width: 800px;
+  font-size: 22px;
+  text-align: justify;
+  margin-top: 5px;
+  margin-left: 350px;
+  
+  
+}
 
 .navbar {
   background-color: #2c2c2c;
@@ -161,5 +181,12 @@ nav ul li:hover {
   nav ul li {
     text-align: center;
     padding: 0.8rem;
+    width: auto;
   }
+
 }
+
+
+
+
+
