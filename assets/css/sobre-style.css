@@ -17,21 +17,17 @@
 
 main h2 {
   color: black;
-  height: 10vh;
-  width: 100vh;
-  text-align: center;
   font-size: 30px;
-  margin-top: 30px;
-  margin-left: 350px;
+  margin-top: 100px;
+  text-align: center;
   
 }
 
 main p{
-  width: 800px;
   font-size: 22px;
   text-align: justify;
-  margin-top: 5px;
-  margin-left: 350px;
+  margin-top: 10px;
+  color: #716f6f;
 }
 
 .navbar {
@@ -215,11 +211,13 @@ nav ul li:hover {
 }
 
 .download-options > div img {
-  width: 180px;
+  width: 160px;
+  cursor: pointer;
 }
 
 .logo-footer {
   text-align: center;
+  height: 100px;
 }
 
 .links-footer h3 {
@@ -245,7 +243,7 @@ nav ul li:hover {
 
   .footer-content > div {
     padding: 1rem;
-  }
+}
 
   .download-options > div {
     display: inline;
