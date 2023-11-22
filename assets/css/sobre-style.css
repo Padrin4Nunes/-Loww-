@@ -2,8 +2,10 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'arial', sans-serif;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
 }
+
 
 .page-inner-content {
   max-width: 1300px;
@@ -17,17 +19,21 @@
 
 main h2 {
   color: black;
-  font-size: 30px;
-  margin-top: 100px;
+  height: 10vh;
+  width: 100vh;
   text-align: center;
+  font-size: 30px;
+  margin-top: 30px;
+  margin-left: 350px;
   
 }
 
 main p{
+  width: 600px;
   font-size: 22px;
   text-align: justify;
-  margin-top: 10px;
-  color: #716f6f;
+  margin-top: 5px;
+  margin-left: 350px;
 }
 
 .navbar {
@@ -44,6 +50,7 @@ main p{
   align-items: center;
   justify-content: space-between;
   position: relative;
+  text-align: center;
 }
 
 .logo {
@@ -186,15 +193,14 @@ nav ul li:hover {
 
 }
 
-
 /* Footer */
 
 .footer-content {
   display: flex;
   align-items: center;
   color: #8f8f8f;
-  padding: 4rem 1rem;
-  gap: 2rem;
+  padding: 1rem 1rem;
+  gap: -2rem;
 }
 
 .download-options > * {
@@ -211,13 +217,11 @@ nav ul li:hover {
 }
 
 .download-options > div img {
-  width: 160px;
-  cursor: pointer;
+  width: 180px;
 }
 
 .logo-footer {
   text-align: center;
-  height: 100px;
 }
 
 .links-footer h3 {
@@ -243,7 +247,7 @@ nav ul li:hover {
 
   .footer-content > div {
     padding: 1rem;
-}
+  }
 
   .download-options > div {
     display: inline;
@@ -255,7 +259,3 @@ nav ul li:hover {
 }
 
 /* Footer */
-
-
-
-
