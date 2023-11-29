@@ -151,7 +151,7 @@ nav ul li:hover {
 
   nav {
     position: absolute;
-    background-color: #2c2c2c;
+    background-color: #2c2c2c4d;
     width: 100%;
     top: 46px;
     display: none;
@@ -180,7 +180,7 @@ main {
 }
 
 .gray-background {
-  background-color: #2c2c2c;
+  background-color: #2c2c2ce7;
 }
 
 .page-inner-content {

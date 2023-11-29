@@ -3,8 +3,8 @@
   padding: 0;
   box-sizing: border-box;
   font-family: 'Roboto', sans-serif;
-}
 
+}
 
 /* Header */
 
@@ -74,6 +74,7 @@ nav ul li:hover {
 
 .menu-button {
   display: none;
+  cursor: pointer;
 }
 
 
@@ -116,8 +117,12 @@ nav ul li:hover {
 }
 
 .page-inner-content {
-  max-width: 1280px;
-  margin: 0 auto;
+  max-width: 1260px;
+  align-items: center;
+  text-align: center;
+  margin: 150px;
+  margin-bottom: 0;
+
 }
 
 .container{
@@ -127,12 +132,12 @@ nav ul li:hover {
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
-  background-color: white;
-  border-radius: 50px;
+  border-radius: 100px;
+  text-align: left;
 }
 
 .card{
-  position: relative;
+  
   padding: 45px;
   width: 300px;
   background-color: white;
@@ -195,7 +200,7 @@ nav ul li:hover {
 }
 
 .container {
-  background-color: #666;
+  background-color: white;
   font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -206,26 +211,27 @@ main button {
   padding: 0.8rem 3.8rem;
   border-radius: 9999px;
   font-weight: 900px;
-  font-size: 1rem;
-  transition: all 0.2s;
   font-family: Arial, Helvetica, sans-serif;
+  
+  
 }
 
 main h2{
-  color: #04fc42;
   font-size: 40px;
-  height: 650px;
-  width: 40px;
   font-family: Arial, Helvetica, sans-serif;
+  
 }
 
 main h3{
-  color: white;
-  font-size: 40px;
-  height: 550px;
-  width: 20px;
+  color: rgb(81, 81, 81);
+  font-size: 30px;
+  height: 50px;
+  width: 900px;
   font-family: Arial, Helvetica, sans-serif;
+  text-align: left;
 }
+
+
 
 /* Footer */
 .footer-content {
@@ -243,14 +249,17 @@ main h3{
 .download-options > p:first-child {
   font-weight: bold;
   color: #fff;
+  cursor: pointer;
 }
 
 .download-options > div {
   display: flex;
+  cursor: pointer;
 }
 
 .download-options > div img {
   width: 180px;
+  cursor: pointer;
 }
 
 .logo-footer {
